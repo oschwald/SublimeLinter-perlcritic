@@ -3,14 +3,14 @@ SublimeLinter-perlcritic
 
 This linter plugin for
 [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) provides an
-interface to the [perlcritic](https://metacpan.org/pod/release/THALJEF/Perl-
-Critic-1.121/bin/perlcritic). It will be used with files that have the "Perl"
-syntax.
+interface to the
+[perlcritic](https://metacpan.org/pod/release/THALJEF/Perl-Critic-1.121/bin/perlcritic).
+It will be used with files that have the "Perl" syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If
-SublimeLinter 3 is not installed, please follow the instructions [here](https:
-//github.com/SublimeLinter/SublimeLinter.github.io/wiki/Installation).
+SublimeLinter 3 is not installed, please follow the instructions [here
+](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Installation).
 
 ### Linter installation
 Before installing this plugin, you must ensure that `perlcritic` is installed
@@ -37,11 +37,10 @@ To install via Package Control, do the following:
    mouse to select it.
 
 ## Settings
-For general information on how SublimeLinter works with settings, please see [
-Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Settin
-gs). For information on generic linter settings, please see [Linter
-Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki
-/Linter-Settings).
+For general information on how SublimeLinter works with settings, please see
+[Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Settings).
+For information on generic linter settings, please see
+[Linter Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Linter-Settings).
 
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the
