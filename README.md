@@ -9,8 +9,8 @@ It will be used with files that have the "Perl" syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If
-SublimeLinter 3 is not installed, please follow the instructions [here
-](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Installation).
+SublimeLinter 3 is not installed, please follow the instructions
+[here](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Installation).
 
 ### Linter installation
 Before installing this plugin, you must ensure that `perlcritic` is installed
