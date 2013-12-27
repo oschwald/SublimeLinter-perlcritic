@@ -3,8 +3,7 @@ SublimeLinter-perlcritic
 
 This linter plugin for
 [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) provides an
-interface to the
-[perlcritic](https://metacpan.org/pod/release/THALJEF/Perl-Critic-1.121/bin/perlcritic).
+interface to the [perlcritic](https://metacpan.org/pod/perlcritic).
 It will be used with files that have the "Perl" syntax.
 
 ## Installation
@@ -32,9 +31,9 @@ To install via Package Control, do the following:
    mouse to select it. There will be a pause of a few seconds while Package
    Control fetches the list of available plugins.
 
-2. When the plugin list appears, type `pelcritic`. Among the entries you should see
-   `SublimeLinter-pelcritic`. If that entry is not highlighted, use the keyboard or
-   mouse to select it.
+2. When the plugin list appears, type `pelcritic`. Among the entries you
+   should see `SublimeLinter-pelcritic`. If that entry is not highlighted, use
+   the keyboard or mouse to select it.
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see

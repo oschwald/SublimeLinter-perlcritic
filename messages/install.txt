@@ -1,3 +1,12 @@
 SublimeLinter-perlcritic
 -------------------------------
 This linter plugin for SublimeLinter provides an interface to perlcritic.
+
+Installation
+------------
+
+In order to use this plugin, please install
+[perlcritic](https://metacpan.org/pod/perlcritic).
+
+Please see https://github.com/oschwald/SublimeLinter-perlcritic/ for more
+detailed instructions.
