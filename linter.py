@@ -11,14 +11,14 @@
 """This module exports the PerlCritic linter class."""
 
 import os
-from SublimeLinter.lint import Linter, persist, util
+from SublimeLinter.lint import Linter, util
 
 
 class PerlCritic(Linter):
 
     """Provides an interface to perlcritic."""
 
-    syntax = 'perl'
+    syntax = ('modernperl', 'perl')
     executable = 'perlcritic'
     regex = r'\[.+\] (?P<message>.+?) at line (?P<line>\d+), column (?P<col>\d+).+?'
 
