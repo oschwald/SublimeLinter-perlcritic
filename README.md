@@ -4,12 +4,15 @@ SublimeLinter-perlcritic
 This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) provides an interface to the [perlcritic](https://metacpan.org/pod/perlcritic). It will be used with files that have the "Perl" syntax.
 
 ## Installation
+
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here](http://sublimelinter.readthedocs.org/en/latest/installation.html).
 
 ### Linter installation
-Before installing this plugin, you must ensure that `perlcritic` is installed on your system. To install `perl`, type `cpanm Perl::Critic`.
+
+Before installing this plugin, you must ensure that `perlcritic` is installed on your system. To install `perlcritic`, type `cpanm Perl::Critic`.
 
 ### Plugin installation
+
 Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won't cover that here.
 
 To install via Package Control, do the following:
@@ -19,9 +22,11 @@ To install via Package Control, do the following:
 2. When the plugin list appears, type `perlcritic`. Among the entries you should see `SublimeLinter-perlcritic`. If that entry is not highlighted, use the keyboard or mouse to select it.
 
 ## Settings
+
 For general information on how SublimeLinter works with settings, please see [Settings](http://sublimelinter.readthedocs.org/en/latest/settings.html). For information on generic linter settings, please see [Linter Settings](http://sublimelinter.readthedocs.org/en/latest/linter_settings.html).
 
 ## Contributing
+
 If you would like to contribute enhancements or fixes, please do the following:
 
 1. Fork the plugin repository.
