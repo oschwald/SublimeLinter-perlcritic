@@ -9,11 +9,11 @@ It will be used with files that have the "Perl" syntax.
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If
 SublimeLinter 3 is not installed, please follow the instructions
-[here](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Installation).
+[here](http://www.sublimelinter.com/en/latest/installation.html).
 
 ### Linter installation
 Before installing this plugin, you must ensure that `perlcritic` is installed
-on your system. To install `perl`, type `cpanm pelcritic`.
+on your system. To install `perlcritic`, type `cpanm perlcritic`.
 
 ### Plugin installation
 Please use [Package Control](https://sublime.wbond.net/installation) to
@@ -31,15 +31,15 @@ To install via Package Control, do the following:
    mouse to select it. There will be a pause of a few seconds while Package
    Control fetches the list of available plugins.
 
-2. When the plugin list appears, type `pelcritic`. Among the entries you
-   should see `SublimeLinter-pelcritic`. If that entry is not highlighted, use
+2. When the plugin list appears, type `perlcritic`. Among the entries you
+   should see `SublimeLinter-perlcritic`. If that entry is not highlighted, use
    the keyboard or mouse to select it.
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see
-[Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Settings).
+[Settings](http://www.sublimelinter.com/en/latest/settings.html).
 For information on generic linter settings, please see
-[Linter Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Linter-Settings).
+[Linter Settings](http://www.sublimelinter.com/en/latest/linter_settings.html).
 
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the
