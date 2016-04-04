@@ -13,7 +13,7 @@ SublimeLinter 3 is not installed, please follow the instructions
 
 ### Linter installation
 Before installing this plugin, you must ensure that `perlcritic` is installed
-on your system. To install `perl`, type `cpanm pelcritic`.
+on your system. To install `perlcritic`, type `cpanm perlcritic`.
 
 ### Plugin installation
 Please use [Package Control](https://sublime.wbond.net/installation) to
@@ -31,8 +31,8 @@ To install via Package Control, do the following:
    mouse to select it. There will be a pause of a few seconds while Package
    Control fetches the list of available plugins.
 
-2. When the plugin list appears, type `pelcritic`. Among the entries you
-   should see `SublimeLinter-pelcritic`. If that entry is not highlighted, use
+2. When the plugin list appears, type `perlcritic`. Among the entries you
+   should see `SublimeLinter-perlcritic`. If that entry is not highlighted, use
    the keyboard or mouse to select it.
 
 ## Settings
