@@ -19,18 +19,5 @@ class PerlCritic(Linter):
     """Provides an interface to perlcritic."""
 
     syntax = ('modernperl', 'perl')
-    executable = 'perlcritic'
     regex = r'\[.+\] (?P<message>.+?) at line (?P<line>\d+), column (?P<col>\d+).+?'
-
-    def cmd(self):
-        """Return a tuple with the command line to execute."""
-
-        command = [self.executable_path, '--verbose', '8']
-
-        config = util.find_file(
-            os.path.dirname(self.filename), '.perlcriticrc')
-
-        if config:
-            command += ['-p', config]
-
-        return command
+    cmd = [ 'perlcritic', '--verbose', '8']
