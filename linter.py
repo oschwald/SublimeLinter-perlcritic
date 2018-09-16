@@ -79,9 +79,12 @@ class PerlCritic(Linter):
 
     """Provides an interface to perlcritic."""
 
-    syntax = ('modernperl', 'perl')
     executable = 'perlcritic'
     regex = r'\[.+\] (?P<message>.+?) at line (?P<line>\d+), column (?P<col>\d+).+?'
+
+    defaults = {
+        'selector': 'source.modernperl, source.perl'
+    }
 
     def cmd(self):
         """Return a tuple with the command line to execute."""
