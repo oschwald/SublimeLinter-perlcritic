@@ -79,7 +79,6 @@ class PerlCritic(Linter):
 
     """Provides an interface to perlcritic."""
 
-    executable = 'perlcritic'
     regex = r'\[.+\] (?P<message>.+?) at line (?P<line>\d+), column (?P<col>\d+).+?'
 
     defaults = {
@@ -89,7 +88,7 @@ class PerlCritic(Linter):
     def cmd(self):
         """Return a tuple with the command line to execute."""
 
-        command = [self.executable, '--verbose', '8']
+        command = ['perlcritic', '--verbose', '8']
 
         config = sl3_util_find_file(
             os.path.dirname(self.filename), '.perlcriticrc'
